@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "FliegeMono";
+  src: url("./resources/FliegeMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FliegeMono";
+  src: url("./resources/FliegeMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --dark-bg: #000;
+  --dark-gray: rgb(25, 25, 25);
+  --text-color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--dark-bg);
+  font-family: "FliegeMono", monospace;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 7rem;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
